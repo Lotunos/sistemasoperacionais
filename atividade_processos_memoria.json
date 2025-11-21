@@ -1,0 +1,86 @@
+{
+    "threads_processos": [
+        {
+            "id": 1,
+            "questao": "Defina o que é um processo em um sistema operacional."
+        },
+        {
+            "id": 2,
+            "questao": "Explique o conceito de thread e sua relação com processos."
+        },
+        {
+            "id": 3,
+            "questao": "Cite três diferenças entre processos e threads."
+        },
+        {
+            "id": 4,
+            "questao": "O que é troca de contexto e quando ela ocorre?"
+        },
+        {
+            "id": 5,
+            "questao": "Explique condição de corrida (race condition)."
+        },
+        {
+            "id": 6,
+            "questao": "O que é um deadlock e como ele pode ocorrer em threads?"
+        },
+        {
+            "id": 7,
+            "questao": "Descreva duas vantagens do uso de threads."
+        },
+        {
+            "id": 8,
+            "questao": "Descreva duas desvantagens do uso de threads."
+        },
+        {
+            "id": 9,
+            "questao": "Explique a diferença entre paralelismo e concorrência."
+        },
+        {
+            "id": 10,
+            "questao": "O que é IPC e cite dois métodos utilizados."
+        }
+    ],
+    "gerenciamento_memoria": [
+        {
+            "id": 11,
+            "questao": "Explique o que é memória virtual."
+        },
+        {
+            "id": 12,
+            "questao": "O que é paginação (paging)?"
+        },
+        {
+            "id": 13,
+            "questao": "O que são page faults e quando ocorrem?"
+        },
+        {
+            "id": 14,
+            "questao": "Explique a diferença entre memória lógica e memória física."
+        },
+        {
+            "id": 15,
+            "questao": "O que é segmentação de memória?"
+        },
+        {
+            "id": 16,
+            "questao": "Explique o algoritmo de substituição LRU."
+        },
+        {
+            "id": 17,
+            "questao": "Explique fragmentação interna e externa."
+        },
+        {
+            "id": 18,
+            "questao": "O que é o bit de validade em uma tabela de páginas?"
+        },
+        {
+            "id": 19,
+            "questao": "Explique o funcionamento básico de um TLB."
+        },
+        {
+            "id": 20,
+            "questao": "O que é swapping no gerenciamento de memória?"
+        }
+    ]
+}
