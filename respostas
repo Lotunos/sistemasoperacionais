@@ -1,0 +1,107 @@
+{
+  "threads_processos": [
+    {
+      "id": 1,
+      "questao": "Defina o que é um processo em um sistema operacional.",
+      "Resposta": "É um programa em execução, contendo seu próprio espaço de endereçamento, código, dados, pilha e recursos alocados pelo sistema operacional."
+    },
+    {
+      "id": 2,
+      "questao": "Explique o conceito de thread e sua relação com processos.",
+      "Resposta": "Thread é a menor unidade de execução dentro de um processo. Todas as threads de um processo compartilham o mesmo espaço de memória, mas possuem contadores de programa e pilhas independentes."
+    },
+    {
+      "id": 3,
+      "questao": "Cite três diferenças entre processos e threads.",
+      "Resposta": "Processos têm memória isolada, threads a compartilham; criar processos é mais custoso, threads são mais leves; comunicação entre processos é lenta, entre threads é rápida e direta."
+    },
+    {
+      "id": 4,
+      "questao": "O que é troca de contexto e quando ela ocorre?",
+      "Resposta": "É o processo de salvar o estado de uma tarefa e carregar o de outra para que a CPU troque a execução. Ocorre em interrupções, bloqueios de E/S, fim de quantum e mudanças de prioridade."
+    },
+    {
+      "id": 5,
+      "questao": "Explique condição de corrida (race condition).",
+      "Resposta": "Ocorre quando múltiplas threads acessam e alteram simultaneamente um recurso compartilhado sem sincronização adequada, gerando resultados imprevisíveis."
+    },
+    {
+      "id": 6,
+      "questao": "O que é um deadlock e como ele pode ocorrer em threads?",
+      "Resposta": "É um bloqueio permanente onde threads ficam esperando recursos umas das outras. Acontece quando existe dependência circular e nenhuma pode prosseguir."
+    },
+    {
+      "id": 7,
+      "questao": "Descreva duas vantagens do uso de threads.",
+      "Resposta": "Aumento do desempenho pela execução paralela e menor custo de criação e gerenciamento comparado a processos."
+    },
+    {
+      "id": 8,
+      "questao": "Descreva duas desvantagens do uso de threads.",
+      "Resposta": "Maior risco de erros como race conditions e maior complexidade no controle de sincronização."
+    },
+    {
+      "id": 9,
+      "questao": "Explique a diferença entre paralelismo e concorrência.",
+      "Resposta": "Concorrência é alternância na execução de tarefas; paralelismo é execução simultânea em múltiplos núcleos."
+    },
+    {
+      "id": 10,
+      "questao": "O que é IPC e cite dois métodos utilizados.",
+      "Resposta": "IPC é o mecanismo de comunicação entre processos. Exemplos: pipes, memória compartilhada, sinais e filas de mensagens."
+    }
+  ],
+
+  "gerenciamento_memoria": [
+    {
+      "id": 11,
+      "questao": "Explique o que é memória virtual.",
+      "Resposta": "É uma técnica que permite que processos usem mais memória do que a RAM disponível, utilizando o disco para armazenar partes não ativas."
+    },
+    {
+      "id": 12,
+      "questao": "O que é paginação (paging)?",
+      "Resposta": "É a divisão da memória lógica em páginas e da memória física em quadros, de tamanho fixo, eliminando fragmentação externa e facilitando o gerenciamento."
+    },
+    {
+      "id": 13,
+      "questao": "O que são page faults e quando ocorrem?",
+      "Resposta": "É uma interrupção gerada quando um processo tenta acessar uma página que não está presente na RAM, exigindo sua busca no disco."
+    },
+    {
+      "id": 14,
+      "questao": "Explique a diferença entre memória lógica e memória física.",
+      "Resposta": "Memória lógica é o endereço usado pelo programa; memória física é o endereço real na RAM após tradução pela MMU."
+    },
+    {
+      "id": 15,
+      "questao": "O que é segmentação de memória?",
+      "Resposta": "É a divisão da memória em segmentos variáveis como código, dados e pilha, refletindo a estrutura lógica do programa."
+    },
+    {
+      "id": 16,
+      "questao": "Explique o algoritmo de substituição LRU.",
+      "Resposta": "O LRU substitui a página que ficou mais tempo sem ser utilizada, assumindo ser a menos necessária."
+    },
+    {
+      "id": 17,
+      "questao": "Explique fragmentação interna e externa.",
+      "Resposta": "Interna ocorre quando o bloco alocado tem espaço sobrando; externa ocorre quando há pequenos espaços livres não contíguos, impossibilitando novas alocações."
+    },
+    {
+      "id": 18,
+      "questao": "O que é o bit de validade em uma tabela de páginas?",
+      "Resposta": "Indica se a página está na memória física (válida) ou não (inválida), auxiliando na detecção de page faults."
+    },
+    {
+      "id": 19,
+      "questao": "Explique o funcionamento básico de um TLB.",
+      "Resposta": "É um cache que armazena traduções recentes de endereços lógicos para físicos, reduzindo o tempo de acesso à memória."
+    },
+    {
+      "id": 20,
+      "questao": "O que é swapping no gerenciamento de memória?",
+      "Resposta": "É o processo de mover processos ou partes deles entre RAM e disco para liberar espaço físico e permitir multitarefa."
+    }
+  ]
+}
